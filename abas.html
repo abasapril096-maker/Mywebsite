@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern UI Portfolio</title>
+
+
+<script>
+
+/* PAGE NAVIGATION + ACTIVE LINK */
+function navigate(pageId, element) {
+
+  const pages = document.querySelectorAll(".page");
+
+  pages.forEach(page => {
+    page.classList.remove("active");
+  });
+
+  setTimeout(() => {
+    document.getElementById(pageId).classList.add("active");
+  }, 150);
+
+  const links = document.querySelectorAll(".nav-link");
+
+  links.forEach(link => {
+    link.classList.remove("active-link");
+  });
+
+  element.classList.add("active-link");
+}
+
+</script>
+
+</body>
+</html>\
