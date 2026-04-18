@@ -233,17 +233,17 @@ body {
     <div class="gallery">
 
       <div class="img-box">
-        <img src="image2.jpg">
+        <img src="moo.jpg">
         <div class="img-label">My Photo 1</div>
       </div>
 
       <div class="img-box">
-        <img src="image3.jpg">
+        <img src="akojpg.jpg">
         <div class="img-label">My Photo 2</div>
       </div>
 
       <div class="img-box">
-        <img src="image4.jpg">
+        <img src="kim.jpg">
         <div class="img-label">My Photo 3</div>
       </div>
 
