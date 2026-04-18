@@ -238,7 +238,7 @@ body {
       </div>
 
       <div class="img-box">
-        <img src="akojpg.jpg">
+        <img src="hihi.jpg">
         <div class="img-label">My Photo 2</div>
       </div>
 
